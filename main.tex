@@ -1,0 +1,44 @@
+\pdfoutput=1
+\pdfcompresslevel=9
+\documentclass[polish]{article}
+\usepackage[autostyle]{csquotes}
+\usepackage[a4paper,top=2.5cm,right=2.5cm,bottom=2.5cm,left=2.5cm]{geometry}
+\usepackage{palatino}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{caption}
+\usepackage{multirow}
+\pagenumbering{gobble}
+\captionsetup{justification=raggedright,singlelinecheck=false}
+\hyphenpenalty=10000
+\clubpenalty=10000
+\widowpenalty=10000
+\brokenpenalty=10000
+\exhyphenpenalty=999999
+\righthyphenmin=3
+\tolerance=4500
+\pretolerance=250
+\hfuzz=1.5pt
+\hbadness=1450
+\linespread{1.5}
+\sloppy
+
+\newcommand{\docdate}{Miasto, dnia 31.12.2019r.}
+\newcommand{\shortdate}{31 grudnia 2019r.}
+\newcommand{\companyaddress}{
+    Firma Jan Kowalski \\
+    ul. Uliczna 1 \\
+    01-010 Miasto \\
+    NIP: 010-100-01-00 \\
+    REGON: 111-000-010 \\
+}
+\newcommand{\companyname}{Firma Jan Kowalski}
+
+\begin{document}
+
+\include{content}
+
+\end{document}
